@@ -1,0 +1,107 @@
+@import './style/color.css';
+@import './style/layout.css';
+@import './style/font.css';
+
+body {
+	color: red;
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.g-flex{
+	display: flex;
+}
+.g-fd-r {
+	flex-direction: row;
+}
+.g-fd-rr {
+	flex-direction: row-reverse;
+}
+.g-fd-c {
+	flex-direction: column;
+}
+.g-fd-cr {
+	flex-direction: column-reverse;
+}
+.g-flex-ac {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.g-jc-fs {
+	justify-content: flex-start;
+}
+.g-jc-fe {
+	justify-content: flex-end;
+}
+.g-jc-c {
+	justify-content: center;
+}
+.g-jc-sa {
+	justify-content: space-around;
+}
+.g-js-sb {
+	justify-content: space-between;
+}
+.g-ai-c {
+	align-items: center;
+}
+.g-ai-fs {
+	align-items: flex-start;
+}
+.g-ai-fe {
+	align-items: flex-end;
+}
+.g-ai-s {
+	align-items: stretch;
+}
+
+.g-col{
+	flex: 1
+}
+
+.g-tc{
+	text-align: center;
+}
+.g-tl{
+	text-align: left;
+}
+.g-tr{
+	text-align: left;
+}
+
+.g-of-h{
+	overflow: hidden;
+}
+
+.g-hide {
+	display: none;
+}
+.g-show {
+	display: block;
+}
+.g-pointer {
+	cursor: pointer;
+}
+.g-br-2 {
+	border-radius: 2px;
+}
+.g-br-4 {
+	border-radius: 4px;
+}
+.g-br-6 {
+	border-radius: 6px;
+}
+.g-br-8 {
+	border-radius: 8px;
+}
+.g-br-10 {
+	border-radius: 10px;
+}
+.g-br-circle {
+	border-radius: 50%;
+}
